@@ -1,0 +1,26 @@
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="F-001" fecha="2023-10-25">
+  <datos-emisor>
+    <nombre>Librería ABC</nombre>
+    <cif>A12345678</cif>
+    <telefono>912345678</telefono>
+  </datos-emisor>
+  <datos-cliente>
+    <nombre>Biblioteca XYZ</nombre>
+    <cif>B87654321</cif>
+    <telefono>934567890</telefono>
+  </datos-cliente>
+  <detalle-factura importe="450.00">
+    <linea codigo-articulo="L001" tipo="Libro">
+      <descripcion>El principito</descripcion>
+      <cantidad>2</cantidad>
+      <pvp>50.00</pvp>
+      <oferta />
+    </linea>
+    <linea codigo-articulo="D002" tipo="DVD">
+      <descripcion>Tutorial CSS</descripcion>
+      <cantidad>1</cantidad>
+      <pvp>20.00</pvp>
+    </linea>
+  </detalle-factura>
+</factura>

@@ -1,0 +1,14 @@
+<!DOCTYPE EquiposNBA SYSTEM "nba.dtd">
+<EquiposNBA>
+  <equipo conferencia="Oeste">
+    <titulos>17</titulos>
+    <posicion>3</posicion>
+    <quinteto>LeBron, Davis, Westbrook, Howard, Anthony</quinteto>
+  </equipo>
+  <nombre>Los Angeles Lakers</nombre>
+  <equipo conferencia="Este">
+    <titulos>3</titulos>
+    <posicion>1</posicion>
+    <quinteto>Butler, Lowry, Adebayo, Tucker, Herro</quinteto>
+  </equipo>
+</EquiposNBA>
